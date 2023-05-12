@@ -23,7 +23,7 @@ const Home = () => {
         if(p1Name=="" || p2Name==""){
 
             toast({
-                title: "Invalid Names",
+                title: "Please Enter Valid Names",
                 status: "error",
                 duration: 3000,
                 position:"top"
